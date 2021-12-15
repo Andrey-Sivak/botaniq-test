@@ -1247,7 +1247,7 @@ body {
     .main {
       background-image: unset; } }
   .main .page-caption {
-    font-family: 'Comfortaa', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-size: 2.5vw;
     line-height: 120%;
@@ -1296,7 +1296,7 @@ body {
     font-weight: 300;
     font-size: 2.5vw;
     line-height: 120%;
-    font-family: 'Comfortaa', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin-bottom: 73px; }
     @media (max-width: 992px) {
       .main .category-caption {
