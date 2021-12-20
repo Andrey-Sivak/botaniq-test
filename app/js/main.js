@@ -86,6 +86,11 @@ window.addEventListener('load', function () {
                 dropdownParent: $('.select')
             });
         }
+
+        $('#select').on('change', function () {
+            const link = $(this).val();
+            window.open(link, '_blank').focus();
+        })
     })();
 });
 
