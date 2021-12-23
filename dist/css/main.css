@@ -1515,7 +1515,7 @@ body {
     height: 640px; }
     @media (max-width: 992px) {
       .main .map {
-        margin-top: 34px; } }
+        padding-top: 34px; } }
     @media (max-width: 767px) {
       .main .map {
         height: 100vw; } }

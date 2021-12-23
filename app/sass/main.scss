@@ -354,7 +354,7 @@ body {
     height: 640px;
 
     @include response-to(medium) {
-      margin-top: 34px;
+      padding-top: 34px;
     }
 
     @include response-to(small) {
