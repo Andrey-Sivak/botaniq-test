@@ -44,11 +44,13 @@ setTimeout(() => {
 })();
 
 (function menu() {
-    const footerForm = document.querySelector('.footer__form');
-    const footerText = document.querySelector('.footer__text');
-    const menu = document.querySelector('.header__menu');
-    const sign = document.querySelector('.header__sign');
-    const btn = document.querySelector('.menu-burger-mob');
+    const footerForm = document.querySelector('.footer__form') || null;
+    const footerText = document.querySelector('.footer__text') || null;
+    const menu = document.querySelector('.header__menu') || null;
+    const sign = document.querySelector('.header__sign') || null;
+    const btn = document.querySelector('.menu-burger-mob') || null;
+
+    if (!footerForm || !footerText || !menu || !sign || !btn) return;
 
     btn.addEventListener('click', function (e) {
         e.preventDefault();
